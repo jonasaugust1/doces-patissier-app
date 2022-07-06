@@ -1,0 +1,41 @@
+header {
+    display: flex;
+}
+
+header img {
+    width: 80%;
+    margin: 0 auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60%;
+}
+
+#signup, #signin {
+    width: 80%;
+    padding: 3%;
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#signup {
+    margin-bottom: 5%;
+    background-color: #F4A15D;
+    border: none;
+}
+
+#signup img {
+    width: 8%;
+    margin-right: 3%;
+}
+
+#signin {
+    border: 1px solid #F4A15D;
+    color: #F4A15D;
+}

@@ -1,0 +1,70 @@
+header  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+header div {
+    background-color: #F4A15D;
+    width: 1%;
+    padding: 1%;
+    margin-left: 5%;
+    border-radius: 50%;
+}
+
+header h1 {
+    margin-left: 5%;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 2%;
+}
+
+form input {
+    width: 95%;
+    padding: 2%;
+    margin-bottom: 5%;
+}
+
+form button {
+    width: 80%;
+    padding: 2%;
+    font-size: large;
+    text-transform: uppercase;
+    border-radius: 20px;
+    background-color: #F4A15D;
+    border: none;
+    color: white;
+    margin-top: 8%;
+    align-self: center;
+}
+
+form a {
+    margin-top: 10%;
+    color: gray;
+    font-size: large;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    margin-top: 60%;
+}
+
+footer button {
+    width: 80%;
+    padding: 2%;
+    text-transform: uppercase;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid gray;
+    margin: 0 auto;
+}

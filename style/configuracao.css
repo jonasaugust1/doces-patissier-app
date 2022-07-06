@@ -1,0 +1,73 @@
+header {
+    display: flex;
+}
+
+header a {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    margin-left: 2%;
+}
+
+header a img {
+    width: 30%;
+    height: 80%;
+    margin-right: 2%;
+    filter: invert(100%) brightness(100%) contrast(80%);
+}
+
+header h1 {
+    font-size: 1em;
+    color: white;
+    width: 60%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+main {
+    position: relative;
+    top: 5%;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+}
+
+main form label {
+    margin-bottom: 2%;
+}
+
+main form input {
+    margin-bottom: 5%;
+    padding: 3%;
+}
+
+#save {
+    margin-top: 10%;
+    background-color: #F4A15D;
+    border: none;
+    width: 90%;
+    align-self: center;
+    color: white;
+    font-size: large;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+footer{
+    margin-top: 50%;
+}
+
+footer button {
+    background-color: white;
+    border: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: large;
+}
+
+footer button img {
+    width: 5%;
+    margin-right: 2%;
+}
